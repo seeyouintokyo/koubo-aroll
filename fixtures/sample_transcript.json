@@ -1,0 +1,43 @@
+{
+  "source": "take.mp4",
+  "language": "zh",
+  "duration": 9.0,
+  "engine": "fixture",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 2.0,
+      "text": "开场说错了这段不要",
+      "words": [{ "start": 0.0, "end": 2.0, "text": "开场说错了这段不要" }]
+    },
+    {
+      "id": 1,
+      "start": 2.0,
+      "end": 3.0,
+      "text": "拍错了",
+      "words": [{ "start": 2.0, "end": 3.0, "text": "拍错了" }]
+    },
+    {
+      "id": 2,
+      "start": 3.0,
+      "end": 6.0,
+      "text": "大家好，今天讲口令粗剪。",
+      "words": [{ "start": 3.0, "end": 6.0, "text": "大家好，今天讲口令粗剪。" }]
+    },
+    {
+      "id": 3,
+      "start": 6.0,
+      "end": 7.0,
+      "text": "可以保留",
+      "words": [{ "start": 6.0, "end": 7.0, "text": "可以保留" }]
+    },
+    {
+      "id": 4,
+      "start": 7.0,
+      "end": 9.0,
+      "text": "尾上还有一句废话",
+      "words": [{ "start": 7.0, "end": 9.0, "text": "尾上还有一句废话" }]
+    }
+  ]
+}
