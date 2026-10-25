@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "koubo-aroll"
+version = "0.1.0"
+description = "口播 A-roll 口令粗剪：导出剪映可用的粗剪 mp4 和 SRT"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "staraiwork" }]
+keywords = ["jianying", "capcut", "koubo", "whisper", "srt"]
+dependencies = []
+
+[project.optional-dependencies]
+stt = ["faster-whisper>=1.1.0"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+koubo-aroll = "koubo_aroll.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
